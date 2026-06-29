@@ -1,0 +1,14 @@
+# Files not uploaded to Cloud Build. Keeps the build context small and secrets out.
+.git
+.gitignore
+node_modules
+dist
+*.log
+dev-server.log
+prod.log
+prod.err.log
+# Secrets: set GEMINI_API_KEY via Cloud Run env var / Secret Manager, not the image.
+.env
+.env.local
+.env.*
+!.env.example

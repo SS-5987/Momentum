@@ -1,0 +1,6 @@
+{
+  "name": "Momentum",
+  "description": "Momentum is an AI productivity companion that prepares the next action for each task so you can execute them in one click.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,15 @@
+node_modules
+dist
+.git
+.gitignore
+*.log
+dev-server.log
+prod.log
+prod.err.log
+coverage
+# Never bake secrets into the image — provide them as runtime env vars instead.
+.env
+.env.local
+.env.*
+!.env.example
+README.md
